@@ -8,13 +8,14 @@ Group:         Development/Python
 URL:           https://github.com/luigifab/python-radexreader
 Source0:       %{url}/archive/v%{version}/%{name}-%{version}.tar.gz
 
+%py_provides   python%{pyver}-radexreader
+
 BuildArch:     noarch
 BuildRequires: aspell-fr
 BuildRequires: python%{pyver}dist(setuptools)
 Requires:      pkgconfig(python3)
 Requires:      python%{pyver}dist(pyserial)
 Requires:      python%{pyver}dist(pyusb)
-%py_provides   python%{pyver}-radexreader
 
 %description %{expand:
 The RadexReader is an user-space driver for the RADEX RD1212 and
