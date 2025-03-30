@@ -34,7 +34,6 @@ BuildRequires: aspell-fr
 %description -l fr %{common_description_fr}
 
 
-%package -n %{name}
 %py_provides   python%{pyver}-radexreader
 Summary:       %{common_summary_en}
 Summary(fr):   %{common_summary_fr}
