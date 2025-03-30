@@ -8,8 +8,6 @@ Group:         Development/Python
 URL:           https://github.com/luigifab/python-radexreader
 Source0:       %{url}/archive/v%{version}/%{name}-%{version}.tar.gz
 
-%py_provides   python%{pyver}-radexreader
-
 BuildArch:     noarch
 BuildRequires: aspell-fr
 BuildRequires: python%{pyver}dist(setuptools)
