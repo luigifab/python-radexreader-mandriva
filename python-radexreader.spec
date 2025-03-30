@@ -64,7 +64,7 @@ install -Dpm 644 ../data/radexreader.1 %{buildroot}%{_mandir}/man1/radexreader.1
 install -Dpm 644 ../data/radexreader.fr.1 %{buildroot}%{_mandir}/fr/man1/radexreader.1
 install -Dpm 644 ../scripts/debian/python3-radexreader.udev %{buildroot}/lib/udev/rules.d/60-%{name}.rules
 
-%files -n python3-radexreader
+%files
 %license LICENSE
 %doc README.md
 %ghost %{python3_sitelib}/radexreader*egg-info/
